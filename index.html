@@ -6,9 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript Lab</title>
+    <style type="text/css" media="all">
+    input[type="text"] {
+      margin: 1em 5em;
+    }
+  </style>
   </head>
 
   <body>
+    <form action="http://localhost:3000/users" method="POST">
+      <label> user Name: <input type="text" name="userName" id="userName" /></label><br />
+      <label> user Email: <input type="text" name="userEmail" id="userEmail" /></label><br />
+      <input type="submit" id="submit" value="Submit" />
+    </form> 
     <script src="index.js"></script>
   </body>
 
